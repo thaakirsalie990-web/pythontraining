@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 # This is like the console.log() function in JS
 print("This is my first python code") 
 
@@ -50,7 +50,7 @@ print(type({'name': 'Anebeth'}))
 print(type({1,2, 2, 3}))
 
 # Tupple = can't be changed like const variable in JS
-=======
+#=======
 # This is like the console.log() function in JS
 print("This is my first python code") 
 
@@ -102,5 +102,8 @@ print(type({'name': 'Anebeth'}))
 print(type({1,2, 2, 3}))
 
 # Tupple = can't be changed like const variable in JS
->>>>>>> b4212ca (push my practice)
+#>>>>>>> b4212ca (push my practice)
 print(type((1,2,3,4)))
+
+#Baraa challenge
+print('My Learning Path\n\t- Python Basics\n\t- Data Engeneering\n\t- AI')
