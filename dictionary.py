@@ -192,4 +192,47 @@ dict_values = dct.values()
 print(dict_values)
 print(dct.values())
 
-# =====================================================
+# =================================
+
+dog = {}
+print(dog)
+
+dog = {
+    'name' : 'Super',
+    'color': 'Black',
+    'breed': 'Pitbull',
+    'legs' : 4,
+    'age' : 10
+}
+
+student = {
+    'first_name' : 'Daniel',
+    'last_name' : 'Park',
+    'gender' : 'Male',
+    'age' : '20',
+    'marital_status' : 'Single',
+    'skills' : ['HTML', 'CSS', 'JavaScript', 'Python'],
+    'country' : 'Japan',
+    'city' : 'Tokyo',
+    'address' : {
+        'street_name' : 'Dende',
+        'zipcode' : '6666'
+    }
+}
+
+print(len(student))
+print(student['skills'])
+print(type(student['skills']))
+
+student['skills'].append('Node')
+print(student['skills'])
+
+print(student.keys(), student.values())
+
+print(student.items())
+
+student.pop('marital_status')
+print(student)
+
+del dog
+
